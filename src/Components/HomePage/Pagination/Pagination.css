@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  border: 1px solid #8c4f8d;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.page-link:hover:not(:disabled) {
+  background-color: #ddd;
+}
+
+.page-link.current-page {
+  font-weight: bold;
+}

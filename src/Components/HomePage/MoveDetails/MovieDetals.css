@@ -1,0 +1,174 @@
+.movie-details-container {
+  background-color: black;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+}
+
+.movieDetails {
+  display: flex;
+}
+
+.aboutFilms {
+  display: flex;
+  margin-left: 70px;
+}
+
+.movie-poster-container {
+  margin-right: 30px;
+}
+
+.movie-poster {
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+  width: 300px;
+}
+
+.treeGroup {
+  display: flex;
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.movie-imdb-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  width: 36px;
+  height: 21px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.movie-runtime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  width: 65px;
+  height: 20px;
+  border: none;
+  border-radius: 3px;
+}
+
+.movie-metascore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  width: 75px;
+  height: 20px;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.movie-genre {
+  margin-top: 10px;
+}
+
+.movie-released,
+.movie-box-office,
+.movie-country,
+.movie-production,
+.movie-actors,
+.movie-director,
+.movie-writer {
+  margin-bottom: 10px;
+}
+
+.value {
+  padding-left: 250px;
+}
+
+.infosliderWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.imbd {
+  color: aliceblue;
+  padding-left: 5px;
+}
+
+
+@media (max-width: 431px) {
+  .movieDetails {
+    flex-direction: column;
+  }
+
+  .aboutFilms {
+    margin: 0;
+    flex-direction: column;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .movie-poster-container {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .movie-info {
+    align-items: center;
+  }
+
+  .infoNames {
+    margin-right: 21%;
+    margin-left: 10%;
+    width: auto;
+  }
+
+  .movie-plot {
+    width: 80%;
+  }
+
+  .infosliderWrap {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movie-actors {
+    max-width: 50%;
+  }
+
+  .new-home-page__film-cards {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 89px;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .Addtofav {
+    max-width: 300px;
+  }
+
+  .infoTTX {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 321px) {
+  .movie-poster-container {
+    margin-right: 0;
+  }
+}
